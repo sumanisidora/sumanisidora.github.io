@@ -1,0 +1,214 @@
+header {
+    background-color:#595959;
+    padding: 12px 0;
+}
+
+.heading {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+span {
+    color: #33adff;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style-type: none;
+    float: right;
+    margin: 12px;
+}
+
+header ul li{
+    float:left;
+    margin-bottom: 0;
+}
+
+header ul li a{
+    color: white;
+    font-size: 1em;
+    margin-left: 40px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+#welding{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    opacity: 0.7;
+    padding-top: 3.5rem;
+  
+}
+
+
+.bravarija{
+    color: black;
+    font-weight: 900;
+}
+
+.gajanin{
+    font-weight: 900;
+    color: #0099ff;
+}
+
+.padding{
+    padding-top: 3.5rem;
+}
+
+.padding1{
+    padding-top: 3.5rem;
+}
+
+#fence{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    opacity: 0.7;
+    padding-top: 3.5rem;
+    
+}
+
+
+
+p {
+    font-size: 1.8rem;
+}
+
+.services ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.services p{
+    padding-top: 5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.fa-phone, .fa-envelope, .fa-map{
+    font-size: 3rem;
+    color: #0099ff;
+}
+
+#contact-us{
+    padding-top: 8rem;
+    text-align: center;
+}
+
+#buildings{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    opacity: 0.7;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    
+   
+}
+
+#top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: #0099ff;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+    #top:hover {
+        transform: scale(1.4);
+    }
+
+    .fa-arrow-up{
+        font-size: 3rem;
+    }
+
+footer{
+    background-color: #595959;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+
+@media(max-width:550px){
+   
+    ul{
+        width: 100%;
+    }
+
+    ul li {
+        display: block;
+        width: 100%;
+        margin: 1px 0 0 0;
+        padding: 0;
+    }
+
+    header ul li a{
+        margin-left: 0;
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid lightgray;
+        padding: 5px;
+    }
+
+    header ul li:last-child a{
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+
+
+    h1, h2, h3, p{
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    .container {
+        width: 90%;
+        padding: 0; }
+    
+
+   .heading{
+       font-size: 2em;
+   }
+    header ul li{
+        float: right;
+        font-size: 1.2rem;
+    }
+
+    h1, h2, h3, p{
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    .padding{
+        padding-top: 2rem;
+    }
+
+    .padding1{
+        padding-top: 0;
+    }
+}
+
+
+
+    
+
+
+
+    
+
