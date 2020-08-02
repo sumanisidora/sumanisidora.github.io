@@ -10,6 +10,10 @@ img{
 
 img:hover{
     opacity: 0.7;
+    filter:grayscale(100%);
+    transform: scale(1.1);
+    transition: 0.5s;
+
 }
 
 a{
@@ -19,7 +23,6 @@ a{
 .heading a:hover{
       color:white;
 }
-
 
 @media(max-width: 1024px){
     img{
